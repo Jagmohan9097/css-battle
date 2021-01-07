@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="back">
+            <div class="scene1"></div>
+            <div class="scene2"></div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        background: rgb(58, 58, 94);
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    .back{
+       background: rgb(250, 233, 84); 
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: relative;
+       overflow: hidden;
+    }
+    .scene{
+        background: rgb(214, 10, 3);
+        width: 130px;
+        height: 130px;
+        left: 90px;
+        top: 90px;
+        transform: rotate(40deg);
+        position: absolute;
+    }
+    .scene1{
+        background: rgb(214, 10, 3);
+        width: 130px;
+        height: 130px;
+        left: 80px;
+        top: 90px;
+        transform: rotate(40deg);
+        position: absolute;
+    }
+    .scene2{
+        background: rgb(214, 10, 3);
+        width: 100px;
+        height: 100px;
+        top: 150px;
+        transform: rotate(40deg);
+        position: absolute;
+    }
+</style>

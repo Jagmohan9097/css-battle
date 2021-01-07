@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 1</title>
+</head>
+<body>
+    <div class="ball sball">
+    <div class="dot1 dot"></div>
+    <div class="dot2 dot"></div>
+    <div class="dot3 dot"></div>
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    </div>
+</body>
+</html>
+<style>
+    body{
+        background: #122c03;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 20%;
+
+    }
+   
+    .sball{
+        position: relative;
+        background: #df8a03;
+    }
+    .dot{
+        position: absolute;
+        background: #68561a;
+        border-radius: 50%;
+    }
+    .dot1{
+        width: 45px;
+        height: 45px;
+        top: 50px;
+        left: 50px;
+    }
+    .dot2{
+        width: 25px;
+        height: 25px;
+        top: 130px;
+        left: 90px;
+    }
+    .dot3{
+        width:15px;
+        height: 15px;
+        top: 40px;
+        left: 130px;
+    }
+    .line{
+        background: #df8a03;
+        position: absolute;
+        left: 45px;
+        top: -50px;
+        height: 300px;
+        width: 15px;
+        border-radius: 15px;
+        left: 90px;
+        top: -50px;
+        z-index: -1;
+       
+    }
+    .line1{
+       top: -65px;
+       left: 90px;
+    }
+    .line2{
+        transform: rotate(-60deg);
+        top: -30px;
+        left: 90px;
+
+    }
+    .line3{
+        transform: rotate(60deg);
+        top: -38px;
+        left: 90px;
+    }
+    .ball {
+        width: 200px;
+        height: 200px;
+        background:  #df8a03;
+        border-radius: 50%;
+        
+    }
+    
+</style>

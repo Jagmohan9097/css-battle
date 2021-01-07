@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 3</title>
+</head>
+<body>
+    <div class="circle1">
+        <div class="circlein"></div>
+    </div>
+    <div class="circle2">
+        <div class="curve"></div>
+    </div>
+    
+
+</body>
+</html>
+<style>
+    body{
+        background: rgb(4, 4, 31);
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    .circle1{
+        background: rgba(110, 2, 35, 0.842);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        clip-path: circle(100px at center);
+    }
+    .circle2{
+        background: rgba(211, 76, 76, 0.842);
+        width: 200px;
+        height: 200px;
+        left: -30px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+
+    }
+    .curve{
+        background: rgb(4, 4, 31);
+        width: 108px;
+        height: 49px;
+        top: 76px;
+        left: -47px;
+        border-radius: 100px/50px;
+        transform: rotate(90deg);
+        position: absolute
+    }
+</style>
